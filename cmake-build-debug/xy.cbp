@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mengqing/CLionProjects/xy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mengqing/CLionProjects/xy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mengqing/CLionProjects/xy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xy">
+				<Option output="/Users/mengqing/CLionProjects/xy/cmake-build-debug/xy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mengqing/CLionProjects/xy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 xy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xy/fast">
+				<Option output="/Users/mengqing/CLionProjects/xy/cmake-build-debug/xy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mengqing/CLionProjects/xy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 xy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mengqing/CLionProjects/xy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/Quadtree.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/Quadtree.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/center.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/center.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/edge.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/edge.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/link.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/link.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/main.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/manybody.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/manybody.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/node.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/node.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/quad.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/quad.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/quadTree_fun.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/quadTree_fun.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/simulation.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/simulation.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/x.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/x.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/y.cpp">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/y.h">
+			<Option target="xy"/>
+		</Unit>
+		<Unit filename="/Users/mengqing/CLionProjects/xy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
